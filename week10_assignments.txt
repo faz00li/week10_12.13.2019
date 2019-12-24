@@ -1,0 +1,55 @@
+*****Triangle Tracker*****
+
+*****Ping Pong with Testing***** -> Done
+
+Choose either Triangle Tracker or Ping Pong and add thorough tests. While this is the opposite of the "Red, Green, Refactor" process, it will help solidify testing concepts. Also, while "Red, Green, Refactor" is a best practice, many tech companies don't always test their code - and both junior devs and QA testers will often find themselves testing code after it's been written.
+
+Write plain English spec descriptions first, including both an input and desired output for each test. Have a teacher to check specs before adding any tests.
+
+
+*****Leetspeak***** -> DONE
+
+Leetspeak uses an alternative alphabet of numbers and symbols to replace various letters in words. For example, "leet" becomes "1337" and "Epicodus" might become "3pic0duz".
+
+Write a LeetspeakTranslator class with a Translate() method that translates a provided string into Leetspeak using the following rules:
+
+"e" should be replaced with "3".
+"o" should be replaced with "0".
+Capital (not the lowercase "I" should be replaced with "1".
+"t" should be replaced with "7".
+"s" should be replaced with "z", unless it is the first letter of a word.
+Here's what sample input and output from a complete program should look like:
+
+Input: "Don't you love these 'String' exercises? I do!"
+Output: "D0n'7 y0u l0v3 7h3z3 'S7ring' 3x3rciz3z? 1 d0!"
+Hints
+A string can be turned into an array using the ToCharArray() method:
+char[] array = "hello".ToCharArray();
+An Array can be transformed into a String using the Join() method:
+string result = string.Join("", array);
+
+*****Coin Combinations*****
+Have you noticed those coin slides used by modern cash registers that automatically give the correct amount of change? Build a console app that lets users enter an amount of cents and shows the smallest number of quarters, dimes, nickels, and pennies needed to make that change. Again, make sure you write clear specs and good tests before building out the console portion.
+
+For bonus points, show more than one coin combination. Start with tests for small combinations and work up from there.
+
+*****Allergies***** BINARY NUMBERS ENTER NUMBER - FIND OUT WHICH BINARY DIGITS ARE INVOLVED
+Here's something a bit trickier and please only attempt this if you have completed the first two projects and had them both checked by an instructor. An allergy score is a single number that tells what someone is allergic to. The scores for each allergen are:
+
+allergen     score
+eggs         1
+peanuts      2
+shellfish    4
+strawberries 8
+tomatoes     16
+chocolate    32
+pollen       64
+cats         128
+So if someone is allergic to eggs and strawberries, they get a score of 9.
+
+Build a website that uses a method that is called on someone's score - i.e. the score is the object, and returns an array listing what they're allergic to. For example, running allergies(3) should print a list of the person's allergies (eggs and peanuts) to the screen.
+
+*****Weekday Finder*****
+Make an console app that allows users to input a day of the year (like 7/11/2014) and then write a method to find out what day of the week it was, i.e. Monday, Tuesday, etc. Make sure you start with your specs and include a README for this project and create a Git repository for it.
+
+Rock Paper Scissors

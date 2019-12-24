@@ -1,0 +1,11 @@
+
+
+
+
+1) Natural Language Specs in README.txt
+
+2) Specs include input/output
+
+3) Begin w/ simplest behavior and progress
+
+4) Coding begins w/ test
